@@ -8,7 +8,8 @@ def format_string(name, age):
         str: Formatted string
     """
     # pass  My name is Alice and I am 30 years old
-    return f" My name is {name} and I am {age} years old"
+    return f"My name is {name} and I am {age} years old"
+    # "My name is John and I am 25 years old"
 
 def conditional_check(number):
     """
@@ -111,6 +112,7 @@ def logical_ops(x, y):
         "not y": not y
     }
 
+
 def bitwise_ops(a, b):
     """
     Perform bitwise operations.
@@ -130,6 +132,7 @@ def bitwise_ops(a, b):
     }
 
 # Call to functions
+
 """ print(format_string("Abubakar",30))
 
 print(conditional_check(22))
