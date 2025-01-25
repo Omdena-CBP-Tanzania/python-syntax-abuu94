@@ -108,8 +108,8 @@ def logical_ops(x, y):
     return {
         "and": x and y,
         "or": x or y,
-        "not": not x,
-        "not y": not y
+        "not_x": not x,
+        # "not_y": not y
     }
 
 
